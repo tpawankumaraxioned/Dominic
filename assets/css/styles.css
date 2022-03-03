@@ -969,9 +969,15 @@ header .wrapper {
 
 .grid_list .grid-item {
   margin-right: 1rem;
-  flex-basis: 47%;
+  flex-basis: 100%;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .grid_list .grid-item {
+    flex-basis: 47%;
+  }
 }
 
 @media (min-width: 768px) {

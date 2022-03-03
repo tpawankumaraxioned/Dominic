@@ -52,7 +52,7 @@ header .wrapper { @apply py-3 flex justify-between  items-center;}
 .filter-menu li a {@apply py-3 px-7 inline-flex font-semibold uppercase hover:bg-neutral-700 hover:text-white active:bg-neutral-700 active:text-white;}
 .filter-menu-btn-active {@apply bg-neutral-700 text-white;}
 .grid_list {@apply flex flex-row md:flex-row flex-wrap sm:justify-between md:justify-start;}
-.grid_list .grid-item {@apply mr-4 py-3 basis-[47%] md:basis-[31%];}
+.grid_list .grid-item {@apply mr-4 py-3 basis-full sm:basis-[47%] md:basis-[31%];}
 /* Portfolio ends here */
 
 /* Testimonials starts here */
