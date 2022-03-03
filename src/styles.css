@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { @apply scroll-smooth;}
+.wrapper { @apply w-[95%] md:w-[90%] ipad:w-[85%] max-w-screen-2xl mx-auto font-mono; }
+
+/* Header starts here */
+header { @apply w-full fixed z-10 bg-neutral-600;}
+header .wrapper { @apply py-3 flex justify-between  items-center;}
+.main_logo {@apply ipad:basis-[20%] lg:basis-[25%];}
+.menu { @apply w-full flex flex-col ipad:flex-row justify-between items-center z-10 text-left absolute ipad:sticky top-16 -right-full ipad:right-0 opacity-0 ipad:opacity-100 bg-neutral-600 transition-all text-white;}
+.menu.active { @apply flex right-0 opacity-100 transition-all;}
+.menu li { @apply my-2 p-2 leading-4; }
+.menu li a {@apply md:hover:text-stone-400;}
+.menu li a.active {@apply text-stone-400;}
+.hamburger { @apply ipad:hidden;}
+/* Header ends here */
+/* Home section starts here */
+.home_section { @apply h-[950px] bg-no-repeat bg-center text-center text-white;}
+/* Home section ends here */
+
+/* About Us starts here */
+.about_us {@apply py-20;}
+.about_us .wrapper {@apply flex flex-col md:flex-row justify-between;}
+.about_us .message-box {@apply mb-6 md:basis-[50%];}
+.about_head {@apply pb-3 text-4xl font-light text-neutral-800;}
+.about_cont {@apply mb-5 text-zinc-400 text-sm leading-6;}
+.download_cv {@apply border py-3 px-4 border-neutral-800 text-neutral-800 inline-block md:hover:bg-neutral-800 md:hover:text-white md:hover:transition-colors;}
+.about_fig {@apply md:basis-[47%];}
+.about-img {@apply shadow-2xl m-auto relative before:block before:absolute before:bg-black before:w-full before:h-full before:z-10 before:content-[''];}
+/* About Us ends here */
+
+/* Services starts here */
+.services_section {@apply py-20 bg-slate-100;}
+.service_head {@apply pb-3 text-4xl font-medium text-neutral-800;}
+.service_cont {@apply mb-5 text-zinc-400 text-sm md:text-base;}
+.service_list {@apply flex flex-wrap justify-between;}
+.service_list li {@apply md:basis-[32%];}
+.service_article {@apply bg-white p-4 mb-7;}
+.service_article figure { @apply h-24 mb-2 ml-3;}
+.service_article figure img {@apply w-20;}
+.service_list .card_body h4 {@apply pb-3 text-2xl font-semibold text-neutral-800;}
+.service_list .card_body p {@apply mb-5 text-zinc-400;}
+/* Services ends here */
+
+/* Portfolio starts here */
+.portfolio_section {@apply py-20 bg-slate-100;}
+.portfolio_section h3 {@apply pb-3 text-4xl font-medium text-neutral-800;}
+.port_cont {@apply mb-5 text-zinc-400 text-sm md:text-base;}
+.filter-menu {@apply flex flex-wrap justify-center mb-4;}
+.filter-menu li a {@apply py-3 px-7 inline-flex font-semibold uppercase hover:bg-neutral-700 hover:text-white active:bg-neutral-700 active:text-white;}
+.filter-menu-btn-active {@apply bg-neutral-700 text-white;}
+.grid_list {@apply flex flex-row md:flex-row flex-wrap sm:justify-between md:justify-start;}
+.grid_list .grid-item {@apply mr-4 py-3 basis-[47%] md:basis-[31%];}
+/* Portfolio ends here */
+
+/* Testimonials starts here */
+.testimonials_section {@apply py-20;}
+.test_head {@apply pb-3 text-4xl font-medium text-neutral-800;}
+.test_cont {@apply mb-5 text-zinc-400 text-sm md:text-base;}
+.slider-list {@apply mt-5 my-16 relative;}
+.slider-list li article {@apply w-[98%] m-auto;}
+.slider-list .article-body {@apply h-auto xl:h-auto bg-black p-7;}
+.slider-list .article-body h4 {@apply text-white font-semibold text-xl pb-3;}
+.slider-list .article-body .lead {@apply text-slate-300 leading-7;}
+.slider-list figure {@apply mt-5 mb-3 flex items-center;}
+.slider-list figure figcaption {@apply ml-4 text-xl flex flex-col text-neutral-800;}
+.slider-list figcaption small { @apply text-neutral-400;}
+/* Testimonials ends here */
+
+/* Blog starts here */
+.blog_section {@apply py-20 bg-slate-100;}
+.blog_head {@apply pb-3 text-4xl font-medium text-neutral-800;}
+.blog_cont {@apply mb-5 text-zinc-400 text-sm md:text-base;}
+.blog_list {@apply flex flex-col md:flex-row md:flex-wrap md:justify-between mb-4;}
+.blog_list li {@apply mb-5 md:w-[31%];}
+.blog_list article figure {@apply relative z-0 md:hover:bg-black md:hover:opacity-75;}
+.blog_list article figcaption {@apply absolute top-4 right-4 p-3 bg-neutral-700 text-white;}
+.blog_list article .card_body {@apply pt-10 px-4 pb-8 bg-white;}
+.blog_list .card_body h5 {@apply text-xl font-bold text-neutral-800;}
+.blog_list .card_body .sub_title {@apply my-2 block text-sm text-zinc-400 text-center;}
+.blog_list .sub_title a {@apply text-neutral-800 font-extrabold;}
+.blog_list .card_body p {@apply mt-3 text-sm text-zinc-400 leading-6;}
+/* Blog ends here */
+
+/* Contact Us starts here */
+.contact_section {@apply py-20;}
+.contact_section h3 {@apply pb-3 text-4xl font-medium text-white;}
+.contact_section .contact_para {@apply mb-10 text-white text-sm md:text-base leading-7;}
+.contact_section .detail-form {@apply bg-white px-7 py-10;}
+.detail-form .form_sec {@apply flex flex-col ipad:flex-row ipad:justify-between;}
+.detail-form .form_sec1 {@apply basis-[49%];}
+.detail-form .form_sec2 {@apply basis-[49%];}
+.detail-form .inp1 {@apply w-full py-4 px-6 mb-7 bg-neutral-800 text-zinc-400 outline-none;}
+.detail-form .inp2 {@apply w-full h-56 ipad:h-56 py-4 px-6 mb-7 bg-neutral-800 text-zinc-400 resize-none outline-none;}
+.contact_section .detail-form .submit_btn {@apply px-4 py-3 block mx-auto border border-neutral-800 text-neutral-800 md:hover:bg-neutral-800 md:hover:text-white md:hover:transition-colors;}
+/* Contact Us ends here */
+
+/* footer starts here */
+footer {@apply py-7 bg-neutral-800;}
+footer .wrapper {@apply relative;}
+.footer_menu {@apply mb-3 flex uppercase text-zinc-400;}
+.footer_menu li {@apply mr-4;}
+.footer-company-name {@apply text-zinc-500 text-sm;}
+.footer-company-name a {@apply text-zinc-300;}
+.up-arrow { @apply absolute bottom-3 right-3 bg-zinc-700; }
+.up-arrow span { @apply hidden; }
+/* footer ends here */
+
+

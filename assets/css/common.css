@@ -1,0 +1,58 @@
+.hamburger::before {
+  content: '\f0c9';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  font-family: FontAwesome;
+  font-size: 26px;
+  color: #fff;
+  transform: translateY(-50%);
+}
+
+.home_section { background-image: url(../images/banner-01.jpg); }
+
+.contact_section {
+  background: url(../images/bg.png) no-repeat center center #333333;
+}
+
+.slick-prev {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: unset;
+  left: 40%;
+  bottom: -65px;
+  background-color: #111 !important;
+  transform: translateX(-35%);
+}
+  
+.slick-prev::before {
+  content: '\f104';
+  font: normal normal normal 36px/1 FontAwesome;
+  color: #fff;
+}
+
+.slick-next { 
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: unset;
+  right: 40%;
+  bottom: -65px;
+  background-color: #111 !important;
+  transform: translateX(-35%);
+ }
+
+ .slick-next::before {
+  content: '\f105';
+  font: normal normal normal 36px/1 FontAwesome;
+  color: #fff;
+}
+
+.up-arrow::before{
+  content: '\f106 ';
+  padding: 8px 15px;
+  display: inline-block;
+  color: #fff;
+  font: normal normal normal 30px/1 FontAwesome;
+}

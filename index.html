@@ -1,0 +1,375 @@
+<!doctype html>
+<!-- If multi-language site, reconsider usage of html lang declaration here. -->
+<html lang="en"> 
+  <head>
+    <meta charset="utf-8">
+    <title>Dominic</title>
+    <!-- 120 word description for SEO purposes goes here. Note: Usage of lang tag. -->
+    <meta name="description" lang="en" content="Dominic">
+    <!-- Keywords to help with SEO go here. Note: Usage of lang tag.  -->
+    <meta name="keywords" lang="en" content="Dominic">
+    <!-- View-port Basics: http://mzl.la/VYREaP -->
+    <!-- This meta tag is used for mobile device to display the page without any zooming,
+        so how much the device is able to fit on the screen is what's shown initially. 
+        Remove comments from this tag, when you want to apply media queries to the website. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- To adhear no-cache for Chrome -->
+    <!-- <meta http-equiv="cache-control" content="no-store, no-cache, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-store, no-cache" />
+    <meta http-equiv="Expires" content="0" /> -->
+    <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!--font-awesome link for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Slick Slider-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick-theme.css">
+    <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
+    <link rel="stylesheet" media="screen" href="./assets/css/common.css" >
+    <link rel="stylesheet" media="screen" href="./assets/css/styles.css" >
+  </head>
+  <body>
+    <!--container starts here-->
+    <!-- <div class="container"> -->
+      <!--header starts here-->
+      <header>
+        <div class="wrapper">
+          <h1 class="main_logo"><a href="index.html" title="Dominic"><img class="img-fluid" src="./assets/images/logo.png" alt="" /></a></h1>
+          <nav>
+            <ul class="menu" id="main_menu">
+              <li><a href="#home" class="menu__link" title="Home">Home</a></li>
+              <li><a href="#about" class="menu__link" title="AboutUs">About Us</a></li>
+              <li><a href="#services" class="menu__link" title="Services">Services</a></li>
+              <li><a href="#portfolio" class="menu__link" title="Portfolio">Portfolio</a></li>
+              <li><a href="#testimonials" class="menu__link" title="Testimonials">Testimonials</a></li>
+              <li><a href="#blog" class="menu__link" title="Blog">Blog</a></li>
+              <li><a href="#contact" class="menu__link" title="ContectUs">Contact Us</a></li>
+            </ul>
+          </nav>
+          <a class="hamburger relative" id="hamburger">  
+            <span class="hamburger__bar "></span>
+          </a>
+        </div>
+      </header>
+      <!--header ends here-->
+      <!--main starts here-->
+      <main>
+        <!-- Home section starts here -->
+        <section id="home" class="home_section">
+          <div class="wrapper">
+            <h2 class="uppercase text-3xl pt-52 pb-4 font-bold	">hello i'm Dominic</h2>
+            <p class="py-5">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            <h3 class="text-2xl">
+              <span>Lorem ipsum dolor sit amet </span>
+              <span>
+                <b class="is-visible">Web Developer</b>
+                <!-- <b>Web Design</b>
+                <b>Creative Design</b>
+                <b>Graphic Design</b> -->
+              </span>
+            </h3>
+          </div>
+        </section>
+        <!-- Home section ends here -->
+        <!-- About Us starts here -->
+        <article id="about" class="about_us resume">
+          <div class="wrapper">
+            <div class="message-box">                        
+              <h3 class="about_head">About Dominic.</h3>
+              <p class="about_cont"> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo. </p>
+              <p class="about_cont">Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo.</p>
+              <a href="#FIXME" class="download_cv" title="download_cv" data-text="Download CV">Download CV</a>
+            </div>
+            <figure class="about_fig">
+              <img class="about-img" src="./assets/images/about_04.jpg" alt="about_image">
+            </figure>
+          </div>
+        </article>
+        <!-- About Us ends here -->
+        <!-- Services starts here -->
+        <section id="services" class="services_section">
+          <div class="wrapper">
+            <h3 class="service_head">Services</h3>
+            <p class="service_cont">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
+            <ul class="service_list">
+              <li>
+                <article class="service_article ">
+                  <figure><img src="./assets/images/icons8-desktop-96.png" alt="Web_Development"></figure>
+                  <div class="card_body">
+                    <h4 >Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="service_article">
+                  <figure><img src="./assets/images/icons8-responsive-96.png" alt="Responsive_Design"></figure>
+                  <div class="card_body">
+                    <h4>Responsive Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="service_article">
+                  <figure><img src="./assets/images/icons8-setting-96.png" alt="Creative_Design"></figure>
+                  <div class="card_body">
+                    <h4>Creative Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="service_article">
+                  <figure><img src="./assets/images/icons8-support-96.png" alt="Support"></figure>
+                  <div class="card_body">
+                    <h4>Support</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="service_article">
+                  <figure><img src="./assets/images/icons8-macbook-idea-96.png" alt="Web_Idea"></figure>
+                  <div class="card_body">
+                    <h4>Web Idea</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article class="service_article">
+                  <figure><img src="./assets/images/icons8-design-96.png" alt="Graphic_Design"></figure>
+                  <div class="card_body">
+                    <h4>Graphic Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Services ends here -->
+        <!-- Portfolio starts here -->
+        <div id="portfolio" class="portfolio_section">
+          <div class="wrapper">
+            <h3>Portfolio</h3>
+            <p class="port_cont">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
+            <ul class="filter-menu">
+              <li><a class="filter-menu-btn filter-menu-btn-active" data-filter="all" href="#FIXME" title="All">All</a></li>
+              <li><a class="filter-menu-btn" data-filter="web_development" href="#FIXME" title="Web_Development">Web Development</a></li>
+              <li><a class="filter-menu-btn" data-filter="creative_design" href="#FIXME" title="Creative_Design">Creative Design</a></li>
+              <li><a class="filter-menu-btn" data-filter="graphic_design" href="#FIXME" title="Graphic_Design">Graphic Design</a></li>
+            </ul>
+            <ul class="grid_list">
+              <li class="grid-item web_development creative_design">
+                <img src="./assets/images/gallery_img-01.jpg" alt="Image">
+              </li>
+              <li class="grid-item creative_design graphic_design">
+                <img src="./assets/images/gallery_img-02.jpg" alt="Image">
+              </li>
+              <li class="grid-item web_development graphic_design">
+                <img src="./assets/images/gallery_img-03.jpg" alt="Image">
+              </li>
+              <li class="grid-item web_development creative_design">
+                <img src="./assets/images/gallery_img-04.jpg" alt="Image">
+              </li>
+              <li class="grid-item web_development graphic_design">
+                <img src="./assets/images/gallery_img-05.jpg" alt="Image">
+              </li>
+              <li class="grid-item web_development creative_design">
+                <img src="./assets/images/gallery_img-06.jpg" alt="Image">
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Portfolio ends here -->
+        <!-- Testimonials starts here -->
+        <section id="testimonials" class="testimonials_section">
+          <div class="wrapper">
+            <h3 class="test_head">Testimonials</h3>
+            <p class="test_cont">We thanks for all our awesome testimonials! There are hundreds of our happy customers! </p>
+            <ul class="slider_section slider-list">
+              <li>
+                <article>
+                  <div class="article-body">
+                    <h4 >Wonderful Support!</h4>
+                    <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                  </div>
+                  <figure>
+                    <img src="./assets/images/testi_01.png" alt="image">
+                    <figcaption>James Fernando <small>- Manager of Racer</small></figcaption>
+                  </figure>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <div class="article-body">
+                    <h4>Awesome Services!</h4>
+                    <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                  </div>
+                  <figure>
+                    <img src="./assets/images/testi_02.png" alt="image">
+                    <figcaption>Jacques Philips <small>- Designer</small></figcaption>
+                  </figure>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <div class="article-body">
+                    <h4>Great & Talented Team!</h4>
+                    <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                  </div>
+                  <figure>
+                    <img src="./assets/images/testi_03.png" alt="image">
+                    <figcaption>Venanda Mercy <small>- Newyork City</small></figcaption>
+                  </figure>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <div class="article-body">
+                    <h4>Wonderful Support!</h4>
+                    <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                  </div>
+                  <figure>
+                    <img src="./assets/images/testi_01.png" alt="image">
+                    <figcaption>James Fernando <small>- Manager of Racer</small></figcaption>
+                  </figure>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <div class="article-body">
+                    <h4>Awesome Services!</h4>
+                    <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                  </div>
+                  <figure>
+                    <img src="./assets/images/testi_02.png" alt="image">
+                    <figcaption>Jacques Philips <small>- Designer</small></figcaption>
+                  </figure>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <div class="article-body">
+                    <h4>Great & Talented Team!</h4>
+                    <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                  </div>
+                  <figure>
+                    <img src="./assets/images/testi_03.png" alt="image">
+                    <figcaption>Venanda Mercy <small>- Newyork City</small></figcaption>
+                  </figure>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Testimonials ends here -->
+        <!-- Blog starts here -->
+        <section id="blog" class="blog_section">
+          <div class="wrapper">
+            <h3 class="blog_head">Blog</h3>
+            <p class="blog_cont">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
+            <ul class="blog_list">
+              <li>
+                <article>
+                  <figure>
+                    <img src="./assets/images/blog-01.jpg" alt="post-img">
+                    <figcaption>06 Aug</figcaption>
+                  </figure>
+                  <div class="card_body">
+                    <h5 >Quisque auctor lectus interdum nisl accumsan venenatis.</h5>
+                    <span class="sub_title">by admin Apr 21, 2018 <a href="#FIXME" title="comment_link">Comments</a></span>
+                    <p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.</p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <figure>
+                    <img src="./assets/images/blog-02.jpg" alt="post-img">
+                    <figcaption>06 Aug</figcaption>
+                  </figure>
+                  <div class="card_body">
+                    <h5>Quisque auctor lectus interdum nisl accumsan venenatis.</h5>
+                    <span class="sub_title">by admin Apr 21, 2018 <a href="#FIXME" title="comment_link">Comments</a></span>
+                    <p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.</p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <figure>
+                    <img src="./assets/images/blog-03.jpg" alt="post-img">
+                    <figcaption>06 Aug</figcaption>
+                  </figure>
+                  <div class="card_body">
+                    <h5>Quisque auctor lectus interdum nisl accumsan venenatis.</h5>
+                    <span class="sub_title">by admin Apr 21, 2018 <a href="#FIXME" title="comment_link">Comments</a></span>
+                    <p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.</p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Blog ends here -->
+        <!-- Contact Us starts here -->
+        <div id="contact" class="contact_section">
+          <div class="wrapper">
+            <h3>Contact</h3>
+            <p class="contact_para">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
+            <form action="#FIXME" class="detail-form" name="detail-form" method="GET">
+              <div class="form_sec">
+                <div class="form_sec1">
+                  <div class="firstname">
+                    <label for="fname" hidden>First name</label>
+                    <input class="inp1" type="text" id="fname" name="fname" placeholder="Your Name">
+                  </div>
+                  <div class="email">
+                    <label for="email" hidden>EmailID</label>
+                    <input class="inp1" type="text" id="email" name="email" placeholder="Your Email">
+                  </div>
+                  <div class="phone">
+                    <label for="phone" hidden>EmailID</label>
+                    <input class="inp1" type="tel" id="phone" name="phone" placeholder="Your Phone">
+                  </div>
+                </div>
+                <div class="form_sec2">
+                  <div class="textbox">
+                    <label for="textmessage" hidden></label>
+                    <textarea class="inp2" id="textmessage" name="textmessage" placeholder="Your Message"></textarea>
+                  </div>
+                </div>
+              </div>
+              <input class="submit_btn" type="submit" name="submit" id="submit" value="Send Message">
+            </form>
+          </div>
+        </div>
+        <!-- Contact Us ends here -->
+      </main>
+      <!--main ends here-->
+      <!--footer starts here-->
+      <footer>      
+        <div class="wrapper">
+          <ul class="footer_menu">
+            <li><a href="#home" class="menu__link" title="Home">Home</a></li>
+            <li><a href="#blog" class="menu__link" title="Blog">Blog</a></li>
+            <li><a href="#FIXME" class="menu__link" title="Pricing">Pricing</a></li>
+            <li><a href="#about" class="menu__link" title="AboutUs">About</a></li>
+            <li><a href="#FIXME" class="menu__link" title="FAQ">FAQ</a></li>            
+            <li><a href="#contact" class="menu__link" title="ContectUs">Contact</a></li>
+          </ul>
+          <span class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#FIXME">Dominic</a> Design By : <a href="#FIXME">html design</a></span>
+          <span class="up-arrow"><span>Up_arrow</span></span>
+        </div>
+      </footer>
+      <!--footer ends here-->
+    <!-- </div> -->
+    <!--container ends here-->
+    <script src="./assets/vendor/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="./assets/js/slick.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
